@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins';
+}
+.navbar-logo-img{
+    width: 80px;
+    height: 80px;
+    padding: 8px;
+    background-color: #fafafa;
+    border-radius: 50%;
+}
+#navItem1, #navItem2, #navItem3, #navItem4{
+    color: #fafafa;
+    font-family: 'Poppins';
+}
+.banner-section-bg-container{
+    height: 80vh;
+    background-image: url("food-web-banner-img.png")
+}
+.banner-heading{
+    color: #fafafa;
+    font-family: 'Poppins';
+    font-size: 45px;
+    font-weight: 500;
+}
+.banner-text{
+    color: #fafafa;
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+.custom-button{
+    height: 50px;
+    width: 150px;
+    color: #fafafa;
+    background-color: #d0b200;
+    border: none; 
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.custom-outline-button{
+    height: 50px;
+    width: 150px;
+    color: #fafafa;
+    background-color: transparent;
+    border: 2px solid #d0b200;
+    border-radius: 10px;
+    margin-right: 10px;
+}
